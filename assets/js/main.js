@@ -1,121 +1,116 @@
-/*
-	Prologue by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+---
+layout: util/compress_js
+---
+/*! Mr. Green Jekyll Theme (https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme)
+ *  Copyright (c) 2022 Mr. Green's Workshop https://www.MrGreensWorkshop.com
+ *  Licensed under MIT
 */
 
-(function($) {
+{% include_relative _js/default/nav/close-top-nav-on-outside-click.js %}
+{% include_relative _js/default/tooltip-init.js %}
+{% include_relative _js/default/show-tooltip.js %}
 
-	skel.breakpoints({
-		wide: '(min-width: 961px) and (max-width: 1880px)',
-		normal: '(min-width: 961px) and (max-width: 1620px)',
-		narrow: '(min-width: 961px) and (max-width: 1320px)',
-		narrower: '(max-width: 960px)',
-		mobile: '(max-width: 736px)'
-	});
+{% if site.data.conf.main.color_scheme_dark -%}
+  {% if site.data.conf.main.color_scheme_switch_side_nav or site.data.conf.main.color_scheme_switch_top_nav -%}
+    {% include_relative _js/default/nav/color-scheme-switch.js %}
+  {%- endif %}
+{%- endif %}
 
-	$(function() {
+{% if site.data.conf.main.side_nav_toggle_button_no_top_nav_buttons -%}
+  {% include_relative _js/default/nav/side-nav-toggle.js %}
+{%- endif %}
 
-		var	$window = $(window),
-			$body = $('body');
+{% if site.data.conf.main.scroll_back_to_top_button -%}
+  {% include_relative _js/default/scroll-to-top.js %}
+{%- endif %}
 
-		// Disable animations/transitions until the page has loaded.
-			$body.addClass('is-loading');
+{% for owner in site.data.owner -%}
+  {% assign email_exist = owner[1].contacts | where_exp: "item", "item.email != nil" | first -%}
+  {% if email_exist -%}
+    {% include_relative _js/default/set-email.js %}
+    {% break %}
+  {%- endif %}
+{%- endfor %}
 
-			$window.on('load', function() {
-				$body.removeClass('is-loading');
-			});
+{% if site.data.lang.size > 1 and site.data.conf.main.language_switch_lang_list.size > 1 and site.data.conf.main.language_translation_offer_box -%}
+  {% assign language_translation_offer_box = true %}
+  {% include_relative _js/default/check-storage-availability.js %}
+  {% include_relative _js/default/lang-offer-msg-box.js %}
+{%- endif %}
 
-		// CSS polyfills (IE<9).
-			if (skel.vars.IEVersion < 9)
-				$(':last-child').addClass('last-child');
+{% if site.data.conf.main.contact_form.enable == true %}
+  {% include_relative _js/contact-form/google-contact-form-iframe.js %}
+{% endif %}
 
-		// Fix: Placeholder polyfill.
-			$('form').placeholder();
+{% if site.data.conf.main.cookie_consent.enable == true
+  or language_translation_offer_box == true
+  or site.data.conf.main.contact_form.enable == true
+%}
+  {% include_relative _js/default/sliding-msg-box.js %}
+{%- endif %}
 
-		// Prioritize "important" elements on mobile.
-			skel.on('+mobile -mobile', function() {
-				$.prioritize(
-					'.important\\28 mobile\\29',
-					skel.breakpoint('mobile').active
-				);
-			});
+{% if site.data.conf.main.cookie_consent.enable == true %}
+  {% include_relative _js/default/cookie-consent.js %}
+{%- endif %}
 
-		// Scrolly links.
-			$('.scrolly').scrolly();
+/**********************************************************
+* for layout specific content
+***********************************************************/
 
-		// Nav.
-			var $nav_a = $('#nav a.scrolly');
+{% if site.posts != nil and site.posts != empty %} {% assign post_exist = true %} {% endif %}
 
-			// Scrolly-fy links.
-				if($nav_a.scrolly()){
-					$nav_a
-						.scrolly()
-						.on('click', function(e) {
+{% assign pages = site.html_pages | where_exp: "item", "item.layout == 'post-list'" %}
+{% if pages.size > 0 %} {% assign post_list_page_exist = true %} {% endif %}
 
-							var t = $(this),
-								href = t.attr('href');
+{% assign pages = site.html_pages | where_exp: "item", "item.layout == 'home'" %}
+{% if pages.size > 0 %} {% assign home_page_exist = true %} {% endif %}
 
-							if (href[0] != '#')
-								return;
+{% assign pages = site.html_pages | where_exp: "item", "item.layout == 'links'" %}
+{% if pages.size > 0 %} {% assign links_page_exist = true %} {% endif %}
 
-							e.preventDefault();
+{% assign pages = site.html_pages | where_exp: "item", "item.layout == 'projects'" %}
+{% if pages.size > 0 %} {% assign projects_page_exist = true %} {% endif %}
 
-							// Clear active and lock scrollzer until scrolling has stopped
-								$nav_a
-									.removeClass('active')
-									.addClass('scrollzer-locked');
 
-							// Set this link to active
-								t.addClass('active');
+{% if home_page_exist %}
+  {% include_relative _js/home/heading-fade-in.js %}
+{% endif %}
 
-						});
-				}
+{%- if links_page_exist and site.data.conf.others.links.use_rows_as_link -%}
+  {% include_relative _js/links/open-url-in-new-page.js %}
+{%- endif %}
 
-			// Initialize scrollzer.
-				var ids = [];
+{% if projects_page_exist %}
+  {% include_relative _js/projects/read-more-less.js %}
+{% endif %}
 
-				$nav_a.each(function() {
+{%- if post_exist -%}
+  {%- if site.data.conf.posts.share_buttons == true -%}
+    {% include_relative _js/post/copy-to-clipboard.js %}
+  {%- endif %}
 
-					var href = $(this).attr('href');
+  {%- if site.data.conf.posts.post_table_of_contents == true -%}
+    {% include_relative _js/post/movable-panels.js %}
+  {%- endif %}
 
-					if (href[0] != '#')
-						return;
+  {%- if site.data.conf.posts.post_table_of_contents == true -%}
+    {% include_relative _js/post/table-of-contents-init.js %}
+  {%- endif %}
+{%- endif %}
 
-					ids.push(href.substring(1));
+{%- if post_exist or post_list_page_exist %}
+  {% if site.data.conf.posts.pager_page_numbers_auto_generator == true %}
+    {% if site.data.conf.posts.pager_navigation_post == 'page_numbers' or site.data.conf.posts.pager_navigation_post_list == 'page_numbers' -%}
+      {% include_relative _js/post_common/pager-page-numbers.js %}
+    {%- endif %}
+  {%- endif %}
+{%- endif %}
 
-				});
-
-				$.scrollzer(ids, { pad: 200, lastHack: true });
-
-		// Header (narrower + mobile).
-
-			// Toggle.
-				$(
-					'<div id="headerToggle">' +
-						'<a href="#header" class="toggle"></a>' +
-					'</div>'
-				)
-					.appendTo($body);
-
-			// Header.
-				$('#header')
-					.panel({
-						delay: 500,
-						hideOnClick: true,
-						hideOnSwipe: true,
-						resetScroll: true,
-						resetForms: true,
-						side: 'left',
-						target: $body,
-						visibleClass: 'header-visible'
-					});
-
-			// Fix: Remove transitions on WP<10 (poor/buggy performance).
-				if (skel.vars.os == 'wp' && skel.vars.osVersion < 10)
-					$('#headerToggle, #header, #main')
-						.css('transition', 'none');
-
-	});
-
-})(jQuery);
+{%- if post_list_page_exist -%}
+  {% if site.data.conf.posts.post_query %}
+   {% include_relative _js/post-list/post-query.js %}
+    {% if site.data.conf.posts.post_query_tabs %}
+      {% include_relative _js/post-list/upside-down-tabs-slide.js %}
+    {% endif -%}
+  {% endif -%}
+{%- endif %}

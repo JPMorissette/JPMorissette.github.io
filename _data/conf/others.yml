@@ -4,7 +4,7 @@ home:
   # enables new posts
   new_posts: true
   # to remove limit, please comment it
-  new_posts_count_limit: 3
+  new_posts_count_limit: 4
   # header image using img tag with different scaling.
   header_img_with_img_tag: false
 
@@ -34,3 +34,8 @@ links:
 projects:
   # if no picture is provided for projects list item, this fills with an empty picture for better look.
   project_img_fill: true
+  
+######################### Enseignement ###########################
+
+enseignements:
+  

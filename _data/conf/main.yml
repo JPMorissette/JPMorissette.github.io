@@ -62,7 +62,7 @@ sample_replace: "$site_sample"
 ###########################################################
 # to enable search feature, set to true
 # if you disable this feature, you don't need search.json file so please open the file and uncomment the "published: false"
-search_enable: true
+search_enable: false
 
 # if this is true, search list hides with mouse leave event
 # if this is false, search list hides with mouse click event
@@ -119,7 +119,7 @@ color_scheme_dark: true
 # this sets default color scheme to dark. (color_scheme_dark must be enabled)
 # page start will be dark color scheme. You can change color scheme using switches
 # this feature doesn't need switches.
-color_scheme_default_dark: false
+color_scheme_default_dark: true
 
 # default color will change based on browser dark color scheme (color_scheme_default_dark should be disabled.)
 # you don't need to enable this if any switch is enabled.
@@ -154,6 +154,7 @@ scroll_back_to_top_button: true
 side_nav_footer: true
 
 # this enables footer text to the bottom of the page
+# fait apparaitre le copyright et (au besoin) la license
 main_footer: true
 
 # this sets footer text position to fixed positioning. Always visible.
@@ -183,14 +184,14 @@ side_nav_close_limit: 767px
 side_and_top_nav_buttons:
   - home:
     icon: "fa fa-home"
-  - post-list:
-    icon: "fa fa-pencil-square-o"
-  - archives:
-    icon: "fa fa-archive"
+  #- post-list:
+  #  icon: "fa fa-pencil-square-o"
+  #- archives:
+  #  icon: "fa fa-archive"
   - projects:
     icon: "fa fa-cog"
-  - links:
-    icon: "fa fa-link"
+  #- links:
+  #  icon: "fa fa-link"
   - about:
     icon: "fa fa-user-o"
 
@@ -253,7 +254,7 @@ copyright_add_text_to_end: false
 
 # this will add creative commons license. check _data/owner/[language].yml for license type.
 creative_commons:
-  enable: true
+  enable: false
   tooltip: true
   add_all_icons: true
   license_url: "https://creativecommons.org/licenses/$license/4.0/deed.$lng"
@@ -306,13 +307,13 @@ meta:
 ###########################################################
 #                Google
 ###########################################################
-google:
-  analytics:
-    # disable this feature entirely for development or production env.
-    ignore: development
-  site_verification:
-    # disable this feature entirely for development or production env.
-    ignore: development
+#google:
+#  analytics:
+#    # disable this feature entirely for development or production env.
+#    ignore: development
+#  site_verification:
+#    # disable this feature entirely for development or production env.
+#    ignore: development
 
 ###########################################################
 #                Cookie consent
@@ -320,7 +321,7 @@ google:
 # make sure google_analytics_id is set in _data/owner/[language].yml
 # make sure your environment does not match with google.analytics.ignore
 cookie_consent:
-  enable: true
+  enable: false
   # if this is true, the consent box will be hidden even if the user does not change the switch position.
   hide_consent_bar_with_save_button: true
   gtag_default_config:
@@ -377,7 +378,7 @@ cookie_consent:
   privacy_link_replace: "$privacy_link"
   # this adds cookie setting button to side nav bottom
   side_nav_setting_button:
-    enable: true
+    enable: false
     tooltip: true
 
 ###########################################################
@@ -389,4 +390,4 @@ youtube:
   privacy: false
   # if it's true, and "centered" is not provided to include parameter,
   # video will be horizontally centered to wrapper.
-  default_center: false
+  default_center: true

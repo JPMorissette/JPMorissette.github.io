@@ -1,5 +1,5 @@
 lng:
-  name: FranÃ§ais
+  name: french
   # based on ISO_639-1 https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
   code: fr
   # specifically needed for open-graph meta og:locale. if open_graph or html_lng_with_country_code not enabled in _data/conf/main.yml, it's not necessary.
@@ -8,25 +8,24 @@ lng:
   country: CA
   switch_title: En
   offer:
-    title: Language
-    msg_page: View this page in English.
+    title: Langue
+    msg_page: Voir cette page en francais.
     # if page translation is not available, use this.
-    msg_site: To English home page
+    msg_site: Vers la page en francais
 
 date:
   # if %b is used in the long format, it will be replaced with the corresponding item in 'months' list below.
-  long: "%b %-d, %Y"
+  long: "%d %-b %- Y"
   day: "%d"
   year: "%Y"
   # months itself also used in Archive page.
-  months: [Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec]
+  months: [Jan, Fev, Mar, Avr, Mai, Juin, Juil, Aout, Sep, Oct, Nov, Dec]
 
 not_found:
-  header: Page not found
-  line1: The page you requested could not be found.
-  line2: Try menu, or site search if available.
-
-no_translation_tooltip: No Translation
+  header: Page non trouvee, hi mom
+  line1: La page que vous avez demandee n ™a pas pu etre trouvee.
+  
+no_translation_tooltip: Aucune traduction
 
 navigation:
   contact_header: Contact
@@ -34,24 +33,24 @@ navigation:
 color_scheme_switch_tooltip: Color scheme
 
 search:
-  placeholder: Search
-  noResultText: No results found.
+  placeholder: Recherche
+  noResultText: Aucun resultat n a ete trouvee.
 
 image_viewer:
-  load_error: The image could not be loaded.
+  load_error: L ™image n a pas pu etre chargee.
 
-copyright:
-  additional_text: " All rights reserved."
+#copyright:
+#  additional_text: " All rights reserved."
 
-creative_commons:
-  some_rights_reserved: Some rights reserved.
-  # check _data/owner/[language].yml for license type.
-  by: Except where otherwise noted, content on this web site is licensed under a Creative Commons Attribution 4.0 International License.
-  by-nd: Except where otherwise noted, content on this web site is licensed under a Creative Commons Attribution-NoDerivatives 4.0 International License.
-  by-sa: Except where otherwise noted, content on this web site is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
-  by-nc: Except where otherwise noted, content on this web site is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
-  by-nc-nd: Except where otherwise noted, content on this web site is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.
-  by-nc-sa: Except where otherwise noted, content on this web site is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+#creative_commons:
+#  some_rights_reserved: Tous droits reserves.
+#  # check _data/owner/[language].yml for license type.
+#  by: Except where otherwise noted, content on this web site is licensed under a Creative Commons Attribution 4.0 International License.
+#  by-nd: Except where otherwise noted, content on this web site is licensed under a Creative Commons Attribution-NoDerivatives 4.0 International License.
+#  by-sa: Except where otherwise noted, content on this web site is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+#  by-nc: Except where otherwise noted, content on this web site is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
+#  by-nc-nd: Except where otherwise noted, content on this web site is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.
+#   by-nc-sa: Except where otherwise noted, content on this web site is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 
 # for 404 layout
 not-found:
@@ -130,8 +129,8 @@ post-list:
 
 # for home layout
 home:
-  title: Welcome
-  button_name: Home
+  title: Bonjour et bienvenue... sur mon site web!
+  button_name: Acceuil
   new_posts_title: New Articles
   new_posts_show_more_button: View More ...
 
@@ -143,9 +142,9 @@ archives:
 
 # for about layout
 about:
-  title: About
-  button_name: About
-  email_title: email
+  title: A propos
+  button_name: A propos
+  email_title: Courriel
 
 # for links layout
 links:
@@ -167,9 +166,9 @@ privacy-policy:
 
 # constants to be replaced for
 constants:
-  greetings: Hello
-  welcome: Welcome
-  sample: Sample
+  greetings: Bonjour
+  welcome: Bienvenue
+  sample: echantillon
 
 # for contact form
 contact_form:
@@ -218,11 +217,11 @@ cookie_consent:
         title: Targeting and advertising cookies
         info: $gtag_info
     gtag_info:
-      # from https://support.google.com/tagmanager/answer/10718549#consent-types
+     # from https://support.google.com/tagmanager/answer/10718549#consent-types
       ad_storage: >
-        Enables storage (such as cookies) related to advertising.
+       Enables storage (such as cookies) related to advertising.
       analytics_storage: >
-        Enables storage (such as cookies) related to analytics e.g. visit duration.
+       Enables storage (such as cookies) related to analytics e.g. visit duration.
       functionality_storage: >
         Enables storage that supports the functionality of the website or app e.g. language settings.
       personalization_storage: >

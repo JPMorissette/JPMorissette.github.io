@@ -132,7 +132,7 @@ post-list:
 
 # for home layout
 home:
-  title: Welcome
+  title: Acceuil
   button_name: Accueil
   new_posts_title: New Articles
   new_posts_show_more_button: View More ...
@@ -145,23 +145,23 @@ archives:
 
 # for about layout
 about:
-  title: About
+  title: À propos
   button_name: À propos
   email_title: email
 
 # for links layout
 links:
-  title: Links
-  button_name: Links
+  title: Liens
+  button_name: Liens
   link_text: Web site
   info_text: Info
 
 # for projects layout
 projects:
-  title: Projects
-  button_name: Projects
-  read_more_text: Read more
-  read_less_text: Read less
+  title: Enseignements
+  button_name: Enseignements
+  read_more_text: Détails
+  read_less_text: Réduire
 
 # for privacy-policy layout
 privacy-policy:

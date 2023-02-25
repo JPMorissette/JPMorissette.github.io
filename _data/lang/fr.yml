@@ -1,5 +1,5 @@
 lng:
-  name: français
+  name: francais
   # based on ISO_639-1 https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
   code: fr
   # specifically needed for open-graph meta og:locale. if open_graph or html_lng_with_country_code not enabled in _data/conf/main.yml, it's not necessary.
@@ -22,7 +22,7 @@ date:
   months: [Jan, Fev, Mar, Avr, Mai, Juin, Juil, Aout, Sep, Oct, Nov, Dec]
 
 not_found:
-  header: Page non trouvée!
+  header: "Page non trouv \'e e!"
   line1: La page que vous avez tente d afficher n a pas pu etre trouvee.
   
 no_translation_tooltip: Aucune traduction

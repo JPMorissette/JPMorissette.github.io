@@ -19,7 +19,9 @@ home:
 
 # about page sub title
 about:
-  sub_title: "test - fr.yml owner"
+  sub_title: "test \n test"
+#    Line1: "Coordonnateur académique et enseignant"
+#    Line2: "Université de Sherbrooke"
 
 # if you don't want to add copyright year, comment or leave it blank.
 # the year during which the claimed copyright for the work was first asserted.

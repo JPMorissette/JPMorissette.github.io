@@ -74,7 +74,7 @@ post:
     first_post: Début
     last_post: Fin
   comments:
-    noscript: Veuillez activer JavaScritp pour voir les commentaires.
+    noscript: Veuillez activer JavaScript pour voir les commentaires.
     disqus:
       count_title: Commentaires
       click_to_load: "Load Comments"
@@ -169,8 +169,8 @@ privacy-policy:
 
 # constants to be replaced for
 constants:
-  greetings: Hello
-  welcome: Welcome
+  greetings: Bonjour
+  welcome: Bienvenue
   sample: Sample
 
 # for contact form

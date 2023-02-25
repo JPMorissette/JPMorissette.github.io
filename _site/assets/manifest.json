@@ -1,7 +1,7 @@
 {
-  "short_name": "Your Brand's App",
-  "name": "Your Brand's App",
-  "description": "Your meta description.",
+  "short_name": "サイト名's App",
+  "name": "サイト名's App",
+  "description": "メタディスクリプション",
   "icons": [
   {
     "src": "/assets/img/favicons/android-chrome-192x192.png",

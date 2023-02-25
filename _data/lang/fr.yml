@@ -95,7 +95,7 @@ post:
       move: Drag to move
       close: Close
   share:
-    heading: Share on
+    heading: Partager
     link_copied: Lien copié!
     tooltip:
       # keys need to match with _data/share.yml
@@ -104,7 +104,7 @@ post:
       telegram: Telegram
       linkedin: LinkedIn
       email: Email
-      copy_link: Copy link
+      copy_link: Copier le lien
 
 # for post-list layout
 post-list:
@@ -171,7 +171,7 @@ privacy-policy:
 constants:
   greetings: Bonjour
   welcome: Bienvenue
-  sample: Sample
+  sample: Échantillon
 
 # for contact form
 contact_form:

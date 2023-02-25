@@ -92,7 +92,7 @@
         {
           "@type": "ListItem"
           ,"position": 1
-          ,"name": "Home"
+          ,"name": "Accueil"
           ,"item": "http://localhost:4000/"
         },
         {
@@ -176,7 +176,7 @@
     <br>
     <div class="side-nav-buttons">
       <ul class="nav nav-pills nav-stacked">
-        <li ><a href="/" class=" hover-effect"><i class="fa-fw fa fa-home" aria-hidden="true"></i>Home</a></li><li ><a href="/tabs/blog/" class="active-page hover-effect"><i class="fa-fw fa fa-pencil-square-o" aria-hidden="true"></i>Blog</a></li><li ><a href="/tabs/archive.html" class=" hover-effect"><i class="fa-fw fa fa-archive" aria-hidden="true"></i>Archive</a></li><li ><a href="/tabs/projects.html" class=" hover-effect"><i class="fa-fw fa fa-cog" aria-hidden="true"></i>Projects</a></li><li ><a href="/tabs/links.html" class=" hover-effect"><i class="fa-fw fa fa-link" aria-hidden="true"></i>Links</a></li><li ><a href="/tabs/about.html" class=" hover-effect"><i class="fa-fw fa fa-user-o" aria-hidden="true"></i>About</a></li></ul>
+        <li ><a href="/" class=" hover-effect"><i class="fa-fw fa fa-home" aria-hidden="true"></i>Accueil</a></li><li ><a href="/tabs/blog/" class="active-page hover-effect"><i class="fa-fw fa fa-pencil-square-o" aria-hidden="true"></i>Blog</a></li><li ><a href="/tabs/archive.html" class=" hover-effect"><i class="fa-fw fa fa-archive" aria-hidden="true"></i>Archive</a></li><li ><a href="/tabs/projects.html" class=" hover-effect"><i class="fa-fw fa fa-cog" aria-hidden="true"></i>Projects</a></li><li ><a href="/tabs/links.html" class=" hover-effect"><i class="fa-fw fa fa-link" aria-hidden="true"></i>Links</a></li><li ><a href="/tabs/about.html" class=" hover-effect"><i class="fa-fw fa fa-user-o" aria-hidden="true"></i>À propos</a></li></ul>
     </div>
     <br>
     <br>
@@ -223,7 +223,7 @@
       <div class="main-container"><div class="multipurpose-container post-container">
   <div class="post-title"><h1>Welcome to Jekyll!</h1></div><div class="meta">
   <small>
-    &nbsp;<i class="fa fa-calendar"></i>&nbsp;&nbsp;Dec 31, 2021
+    &nbsp;<i class="fa fa-calendar"></i>&nbsp;&nbsp;31 Dec 2021
   </small>
   <small>
     &nbsp;&nbsp;&nbsp;<span><i class="fa fa-clock-o"></i>&nbsp;0 min read</span>
@@ -283,7 +283,7 @@
       </li>
     
       <li>
-        <a href="javascript:void(0);" onclick="copyToClipboard('http://localhost:4000/posts/2022-01-01-welcome-to-jekyll', 'Link copied!')" id="copytoclipboard" data-toggle="tooltip" data-placement="top" title="Copy link" class="hover-effect-big">
+        <a href="javascript:void(0);" onclick="copyToClipboard('http://localhost:4000/posts/2022-01-01-welcome-to-jekyll', 'Lien copié!')" id="copytoclipboard" data-toggle="tooltip" data-placement="top" title="Copy link" class="hover-effect-big">
           <i class="fa fa-link fa-fw" aria-hidden="true"></i>
         </a>
       </li>
@@ -305,7 +305,7 @@
     <footer translate="no">
       <div class="footer-text footer-text-centered long-copyright">
           <p>&copy; 2022 サイト名. </p><a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr" target="_blank" rel="noopener noreferrer" data-toggle="tooltip" data-placement="top" data-tooltip-no-hide title="Except where otherwise noted, content on this web site is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.">
-              <img src="/assets/img/default/cc/cc.svg" alt="cc" width="12" height="12">&nbsp;<img src="/assets/img/default/cc/by.svg" alt="by" width="12" height="12">&nbsp;<img src="/assets/img/default/cc/sa.svg" alt="sa" width="12" height="12">&nbsp;<p>Some rights reserved.</p>
+              <img src="/assets/img/default/cc/cc.svg" alt="cc" width="12" height="12">&nbsp;<img src="/assets/img/default/cc/by.svg" alt="by" width="12" height="12">&nbsp;<img src="/assets/img/default/cc/sa.svg" alt="sa" width="12" height="12">&nbsp;<p>Tous droits réservés.</p>
             </a></div>
       <p class="footer-powered"><span>Pwrd by </span><a href="https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme" target="_blank" rel="noopener noreferrer">Mr. Green</a></p>
     </footer>
@@ -317,7 +317,7 @@
 
     <div class="searchbox-container">
   <form id="searchbox-form" autocomplete="off">
-    <input type="search" id="search-box" placeholder="Search"
+    <input type="search" id="search-box" placeholder="Recherche"
     onkeyup="if(this.value!==''){document.getElementById('search-results').style.display = 'block';}"
     onfocusout="this.value='';"
     onblur="setTimeout(function(){ document.getElementById('search-results').style.display = 'none'; }, 100);">
@@ -338,7 +338,7 @@
           ,image: {
             titleSrc: 'alt'
             /* Error message */
-            ,tError: 'The image could not be loaded.<br><br>%url%'
+            ,tError: 'L'image n'a pas pu être chargée.<br><br>%url%'
             /* Set to null to disable zoom out cursor. */
             /*,cursor: null */
           }
@@ -365,8 +365,8 @@
       PagerPageNumbers.setProperties({
         paginatorListContainerName: ".pagination_wrapper .pagination"
         ,pageList: ["/posts/2022-03-03-mr-green-jekyll-theme", "/posts/2022-02-10-Examples", "/posts/2022-01-01-welcome-to-jekyll", "/posts/2021-10-15-Test-page6", "/posts/2021-10-14-Test-page5", "/posts/2021-09-13-Test-page4", "/posts/2021-09-12-Test-page3", "/posts/2021-08-11-Test-page2", "/posts/2021-08-10-Test-page1"]
-        ,firstButtonName: 'First'
-        ,lastButtonName: 'Last'
+        ,firstButtonName: 'Début'
+        ,lastButtonName: 'Fin'
         ,prevButtonName: "«"
         ,nextButtonName: "»"
       });
@@ -384,7 +384,7 @@
       ,resultsContainer: document.getElementById('search-results')
       ,json: jsonData
       ,searchResultTemplate: '<li> <a href="{url}"> <div> <div class="title">{title}</div> <div class="date">{date}</div> <div style="clear: both;"></div> </div> </a></li>'
-      ,noResultsText: '<li>No results found.</li>'
+      ,noResultsText: '<li>Aucun résultats trouvés.</li>'
       ,limit: 10
       ,fuzzy: false
       ,formSubmit: document.getElementById('searchbox-form')

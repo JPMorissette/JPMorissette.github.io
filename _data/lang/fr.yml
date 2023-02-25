@@ -17,18 +17,18 @@ lng:
 
 date:
   # if %b is used in the long format, it will be replaced with the corresponding item in 'months' list below.
-  long: "%b %-d, %Y"
+  long: "%d %-b %-Y"
   day: "%d"
   year: "%Y"
   # months itself also used in Archive page.
-  months: [Jan, Fév, Mar, Apr, Mai, Jun, Jul, Aug, Sep, Oct, Nov, Dec]
+  months: [Jan, Fév, Mar, Avr, Mai, Juin, Juil, Août, Sep, Oct, Nov, Déc]
 
 not_found:
   header: Page non trouvée
-  line1: The page you requested could not be found.
-  line2: Try menu, or site search if available.
+  line1: La page que vous avez demandée n'a pas pu être trouvée.
+  line2: Veuillez utiliser le menu pour revenir au site web.
 
-no_translation_tooltip: No Translation
+no_translation_tooltip: Aucune traduction.
 
 navigation:
   contact_header: Contact
@@ -36,17 +36,17 @@ navigation:
 color_scheme_switch_tooltip: Color scheme
 
 search:
-  placeholder: Search
-  noResultText: No results found.
+  placeholder: Recherche
+  noResultText: Aucun résultats trouvés.
 
 image_viewer:
-  load_error: The image could not be loaded.
+  load_error: L'image n'a pas pu être chargée.
 
 copyright:
   additional_text: " All rights reserved."
 
 creative_commons:
-  some_rights_reserved: Some rights reserved.
+  some_rights_reserved: Tous droits réservés.
   # check _data/owner/[language].yml for license type.
   by: Except where otherwise noted, content on this web site is licensed under a Creative Commons Attribution 4.0 International License.
   by-nd: Except where otherwise noted, content on this web site is licensed under a Creative Commons Attribution-NoDerivatives 4.0 International License.
@@ -71,12 +71,12 @@ post:
   pager_buttons:
     older_post: "← Older Post"
     newer_post: "Newer Post →"
-    first_post: First
-    last_post: Last
+    first_post: Début
+    last_post: Fin
   comments:
-    noscript: Please enable JavaScript to view the Comments.
+    noscript: Veuillez activer JavaScritp pour voir les commentaires.
     disqus:
-      count_title: Comments
+      count_title: Commentaires
       click_to_load: "Load Comments"
       consent:
         title: Comments (Disqus.com)
@@ -96,7 +96,7 @@ post:
       close: Close
   share:
     heading: Share on
-    link_copied: Link copied!
+    link_copied: Lien copié!
     tooltip:
       # keys need to match with _data/share.yml
       twitter: Twitter
@@ -133,7 +133,7 @@ post-list:
 # for home layout
 home:
   title: Welcome
-  button_name: Home
+  button_name: Accueil
   new_posts_title: New Articles
   new_posts_show_more_button: View More ...
 
@@ -146,7 +146,7 @@ archives:
 # for about layout
 about:
   title: About
-  button_name: About
+  button_name: À propos
   email_title: email
 
 # for links layout

@@ -1,3 +1,5 @@
+encoding: utf-8
+
 lng:
   name: Français
   # based on ISO_639-1 https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
@@ -19,7 +21,7 @@ date:
   day: "%d"
   year: "%Y"
   # months itself also used in Archive page.
-  months: [Jan, Fév, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec]
+  months: [Jan, Fév, Mar, Apr, Mai, Jun, Jul, Aug, Sep, Oct, Nov, Dec]
 
 not_found:
   header: Page non trouvée

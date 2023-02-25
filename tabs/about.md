@@ -39,6 +39,11 @@ img: ":about.jpg"
 {%- comment -%} Please delete below and place your page content here {%- endcomment -%}
 
 {%- include util/auto-content-generator.liquid -%}
-{{ website_info_text_first }}
 
-{{ website_info_text_second }}
+### Markdown dans tabs/about
+
+Ceci est mon texte. Je crois enfin avoir trouvé comment me débarasser des échantillons duplicatas.
+
+En espérant que le saut de ligne fonctionne également.
+
+lolololol

@@ -82,14 +82,14 @@
     ,"tags"     : ""
     ,"url"      : "/"
     ,"date"     : "25 Feb 2023"
-    ,"content"  : "Bonjour Échantillon Échantillon Échantillon Échantillon Échantillon"
+    ,"content"  : "Markdown dans index.md Note à moi-même. La plupart des correction de ce genre demande tout simplement d’aller éditer les *.md. Fallait quand même un peu le savoir, je trouve!"
   },{
     "title"    : "À propos"
     ,"category" : ""
     ,"tags"     : ""
     ,"url"      : "/tabs/about.html"
     ,"date"     : "25 Feb 2023"
-    ,"content"  : "Bonjour Échantillon Échantillon Échantillon Échantillon Échantillon"
+    ,"content"  : "Markdown dans tabs/about Ceci est mon texte. Je crois enfin avoir trouvé comment me débarasser des échantillons duplicatas. En espérant que le saut de ligne fonctionne également. lolololol"
   }
   ]
 

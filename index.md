@@ -40,6 +40,9 @@ img: ":home-heading.jpg"
 {%- comment -%} Please delete below and place your page content here {%- endcomment -%}
 
 {%- include util/auto-content-generator.liquid -%}
-{{ website_info_text_first }}
 
-{{ website_info_text_second }}
+### Markdown dans index.md
+
+Note à moi-même. La plupart des correction de ce genre demande tout simplement d'aller éditer les *.md.
+
+Fallait quand même un peu le savoir, je trouve!

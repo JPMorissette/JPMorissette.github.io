@@ -22,7 +22,7 @@ date:
   months: [Jan, Fev, Mar, Avr, Mai, Juin, Juil, Aout, Sep, Oct, Nov, Dec]
 
 not_found:
-  header: "Page non trouv \'e e!"
+  header: "Page non trouvee!"
   line1: La page que vous avez tente d afficher n a pas pu etre trouvee.
   
 no_translation_tooltip: Aucune traduction

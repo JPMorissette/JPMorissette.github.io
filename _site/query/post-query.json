@@ -37,7 +37,7 @@
     ,"year"     : "2021"
     },{
     "title"     : "Sample"
-    ,"title_sub": "Hello Sample Sample Sample Sample Sample"
+    ,"title_sub": "Bonjour Sample Sample Sample Sample Sample"
     ,"category" : "auto generated"
     ,"tags"     : "jekyll, sample"
     ,"url"      : "/posts/2021-10-15-Test-page6"
@@ -49,7 +49,7 @@
     ,"year"     : "2021"
     },{
     "title"     : "Sample"
-    ,"title_sub": "Hello Sample Sample Sample Sample Sample"
+    ,"title_sub": "Bonjour Sample Sample Sample Sample Sample"
     ,"category" : "auto generated"
     ,"tags"     : "jekyll, test"
     ,"url"      : "/posts/2021-10-14-Test-page5"
@@ -61,7 +61,7 @@
     ,"year"     : "2021"
     },{
     "title"     : "Sample"
-    ,"title_sub": "Hello Sample Sample Sample Sample Sample"
+    ,"title_sub": "Bonjour Sample Sample Sample Sample Sample"
     ,"category" : "auto generated"
     ,"tags"     : "jekyll, example post"
     ,"url"      : "/posts/2021-09-13-Test-page4"
@@ -73,7 +73,7 @@
     ,"year"     : "2021"
     },{
     "title"     : "Sample"
-    ,"title_sub": "Hello Sample Sample Sample Sample Sample"
+    ,"title_sub": "Bonjour Sample Sample Sample Sample Sample"
     ,"category" : "auto generated"
     ,"tags"     : "jekyll, sample"
     ,"url"      : "/posts/2021-09-12-Test-page3"
@@ -85,7 +85,7 @@
     ,"year"     : "2021"
     },{
     "title"     : "Sample"
-    ,"title_sub": "Hello Sample Sample Sample Sample Sample"
+    ,"title_sub": "Bonjour Sample Sample Sample Sample Sample"
     ,"category" : "auto generated"
     ,"tags"     : "jekyll, test"
     ,"url"      : "/posts/2021-08-11-Test-page2"
@@ -97,7 +97,7 @@
     ,"year"     : "2021"
     },{
     "title"     : "Sample"
-    ,"title_sub": "Hello Sample Sample Sample Sample Sample"
+    ,"title_sub": "Bonjour Sample Sample Sample Sample Sample"
     ,"category" : "auto generated"
     ,"tags"     : "jekyll, example post"
     ,"url"      : "/posts/2021-08-10-Test-page1"

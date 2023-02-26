@@ -1,0 +1,23 @@
+---
+lng_pair: id_first_content
+title: titre2
+
+author: Daisy Hong
+category: clutter
+tags: [clutter]
+#img: ":post1.jpeg"
+
+date: 2023-01-11 15:17:00 +0900
+---
+
+{%- comment -%} Please delete below and place your page content here {%- endcomment -%}
+
+{%- include util/auto-content-generator.liquid -%}
+
+<!-- outline-start -->
+
+MON ABSTRACT 
+
+<!-- outline-end -->
+
+Mon contenu de post

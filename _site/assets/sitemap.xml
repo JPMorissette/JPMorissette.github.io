@@ -6,6 +6,9 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
 xmlns:xhtml="http://www.w3.org/1999/xhtml"
 xmlns:image="https://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>http://localhost:4000/posts/2020-01-01-test_date</loc>
+  </url>
+  <url>
     <loc>http://localhost:4000/posts/2023-27-02-TestJP</loc>
     <image:image>
       <image:loc>http://localhost:4000/assets/img/posts/post_pic1.jpg</image:loc>

@@ -1,5 +1,12 @@
 [
     {
+    "title"    : "titre2"
+    ,"category" : "clutter"
+    ,"tags"     : "clutter"
+    ,"url"      : "/posts/2020-01-01-test_date"
+    ,"date"     : "11 Jan 2023"
+    ,"content"  : "MON ABSTRACT Mon contenu de post"
+  },{
     "title"    : "Swag Title"
     ,"category" : "auto generated"
     ,"tags"     : "jekyll, example post"

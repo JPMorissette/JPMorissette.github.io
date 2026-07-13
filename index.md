@@ -37,9 +37,8 @@ img: ":home-heading.jpg"
 #published: false
 ---
 
-{%- comment -%} Please delete below and place your page content here {%- endcomment -%}
+## Hello and welcome... to my personal website!
 
-{%- include util/auto-content-generator.liquid -%}
-{{ website_info_text_first }}
+I'm currently a PhD student at the [Department of Mathematics](https://www.usherbrooke.ca/mathematiques/), Faculty of science of the [Université de Sherbrooke](https://www.usherbrooke.ca/), Canada. I'm also a member of the [GRIIS](https://griis.ca/).
 
-{{ website_info_text_second }}
+

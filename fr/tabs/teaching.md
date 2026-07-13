@@ -15,4 +15,4 @@ button_name: "Enseignements"
 
 {%- comment -%} Remplacez ceci par vos informations d'enseignement (cours, sessions, etc.). {%- endcomment -%}
 
-Listez vos cours enseignés ici.
+À venir!

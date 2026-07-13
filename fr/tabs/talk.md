@@ -4,8 +4,8 @@ layout: talk
 lng_pair: id_talk
 
 # for override items in _data/lang/[language].yml
-title: "Conférence"
-button_name: "Conférence"
+title: "Conférences"
+button_name: "Conférences"
 # for override side_and_top_nav_buttons in _data/conf/main.yml
 #icon: "fa fa-microphone"
 

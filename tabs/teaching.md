@@ -15,4 +15,4 @@ button_name: "Teaching"
 
 {%- comment -%} Replace this with your teaching info (courses, semesters, etc.). {%- endcomment -%}
 
-List the courses you teach here.
+Coming soon!

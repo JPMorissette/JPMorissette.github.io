@@ -15,4 +15,4 @@ button_name: "Talk"
 
 {%- comment -%} Replace this with your conference talks. {%- endcomment -%}
 
-List your conference talks here.
+Coming soon!

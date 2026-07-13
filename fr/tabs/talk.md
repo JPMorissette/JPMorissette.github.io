@@ -15,4 +15,4 @@ button_name: "Conférence"
 
 {%- comment -%} Remplacez ceci par vos conférences. {%- endcomment -%}
 
-Listez vos conférences ici.
+À venir!

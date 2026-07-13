@@ -15,4 +15,4 @@ button_name: "Intérêt de recherche"
 
 {%- comment -%} Remplacez ceci par vos intérêts de recherche. {%- endcomment -%}
 
-Décrivez vos intérêts de recherche ici.
+À venir!

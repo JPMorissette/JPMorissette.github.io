@@ -13,6 +13,7 @@ button_name: "Publications"
 #meta_description: ""
 ---
 
-{%- comment -%} Replace this with your list of publications. {%- endcomment -%}
-
-List your publications here.
+<ol reversed>
+  <li>Recent work</li>
+  <li>Old work</li>
+</ol>

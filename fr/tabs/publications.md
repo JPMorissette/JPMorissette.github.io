@@ -15,4 +15,4 @@ button_name: "Publications"
 
 {%- comment -%} Remplacez ceci par votre liste de publications. {%- endcomment -%}
 
-Listez vos publications ici.
+À venir!

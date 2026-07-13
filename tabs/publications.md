@@ -13,10 +13,28 @@ button_name: "Publications"
 #meta_description: ""
 ---
 {%- comment -%}
+
+## Articles
+
 <ol reversed>
-  <li>Recent work</li>
-  <li>Old work</li>
+  <li>VALORIS</li>
+  <li>Revisiting VERTIGO/CI</li>
+  <li>Article de sondage</li>
+  <li>CaMUS</li>
 </ol>
+
+## Research reports
+
+<ol reversed>
+  <li>Rapport de recherche avec Bernard</li>
+</ol>
+
+## Theses
+
+<ol reversed>
+  <li>Travaux de maîtrise</li>
+</ol>
+
 {%- endcomment -%}
 
 Coming soon!

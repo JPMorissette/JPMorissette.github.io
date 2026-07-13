@@ -100,7 +100,7 @@
 
 
 {%- if publisher_id == person_id or author_id == person_id or copyright_id == person_id or thing_id == person_id -%}
-  {%- include multi_lng/get-page-by-layout.liquid layout = 'about' -%}
+  {%- include multi_lng/get-page-by-layout.liquid layout = 'home' -%}
   {%-capture person_meta_ld_json %}
       "@type": "Person"
       ,"@id": "{{ person_id }}"

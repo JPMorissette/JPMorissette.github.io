@@ -37,9 +37,6 @@ img: ":home-heading.jpg"
 #published: false
 ---
 
-{%- comment -%} Please delete below and place your page content here {%- endcomment -%}
+## Bonjour et bienvenue... sur mon site web personnel!
 
-{%- include util/auto-content-generator.liquid -%}
-{{ website_info_text_first }}
-
-{{ website_info_text_second }}
+Je suis présentement étudiant au doctorat au [Départment de Mathématiques](https://www.usherbrooke.ca/mathematiques/), Faculté des sciences de l'[Université de Sherbrooke](https://www.usherbrooke.ca/), Canada. Je suis également membre du [GRIIS](https://griis.ca/).

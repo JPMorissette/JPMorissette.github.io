@@ -15,4 +15,4 @@ button_name: "Research Interest"
 
 {%- comment -%} Replace this with your research interests. {%- endcomment -%}
 
-Describe your research interests here.
+Coming soon!

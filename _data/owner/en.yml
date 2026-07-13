@@ -48,17 +48,17 @@ meta_common_description: "Personnal website for Jean-Philippe Morissette."
 # the order of the items will be shown as here.
 # comment to remove any contact item
 contacts:
-  - github: "https://github.com/JPMorissette"
+  - github: "JPMorissette"
   - email: "Jean-Philippe.Morissette@USherbrooke.ca"
-  - linkedin: "https://www.linkedin.com/in/jean-philippe-morissette-0b77461b0/"
+  - linkedin: "in/jean-philippe-morissette-0b77461b0/"
   #- twitter: ""
   #- mastodon: ""
   #- instagram: ""
-  - youtube: "https://www.youtube.com/@JPMorissette"
+  - youtube: "@JPMorissette"
   
   #- facebook: ""
 # to add more, check the _data/const/contact.yml file
-  - orcid: "https://orcid.org/0009-0008-8297-9713"
+  - orcid: "0009-0008-8297-9713"
 
 # make sure one of comment engine is enabled in _data/conf/posts.yml file
 comments:

@@ -2,13 +2,13 @@
 # Owner's Personal Information
 ###########################################################
 # This is your brand name
-brand: "Your Brand"
+brand: "Jean-Philippe Morissette"
 
 # text below the brand name
 brand_sub_text: "$site_sample"
 
 # used for seo meta post author (if it's not defined in post)
-name: "Your Name"
+name: "Jean-Philippe Morissette"
 
 # home page top header texts
 home:
@@ -23,7 +23,7 @@ about:
 
 # if you don't want to add copyright year, comment or leave it blank.
 # the year during which the claimed copyright for the work was first asserted.
-copyright_start_year: "2022"
+copyright_start_year: "2026"
 
 # make sure creative_commons.enable is true in _data/conf/main.yml file
 creative_commons:
@@ -42,22 +42,23 @@ creative_commons:
 # seo meta this is needed for each language
 # If meta_description is not defined in front matter, it's created from (post / page) content,
 # if it has no content, this will be used for page description. It is also used in manifest.json
-meta_common_description: "Your meta description."
+meta_common_description: "Personnal website for Jean-Philippe Morissette."
 
 # contact options (side nav bottom and about page)
 # the order of the items will be shown as here.
 # comment to remove any contact item
 contacts:
-  #- github: ""
-  #- email: ""
-  #- linkedin: ""
+  - github: "https://github.com/JPMorissette"
+  - email: "Jean-Philippe.Morissette@USherbrooke.ca"
+  - linkedin: "https://www.linkedin.com/in/jean-philippe-morissette-0b77461b0/"
   #- twitter: ""
   #- mastodon: ""
   #- instagram: ""
-  #- youtube: ""
+  - youtube: "https://www.youtube.com/@JPMorissette"
+  
   #- facebook: ""
 # to add more, check the _data/const/contact.yml file
-#  - your_new_contact: ""
+  - orcid: "https://orcid.org/0009-0008-8297-9713"
 
 # make sure one of comment engine is enabled in _data/conf/posts.yml file
 comments:

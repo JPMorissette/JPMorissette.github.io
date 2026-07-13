@@ -13,6 +13,12 @@ button_name: "Research Interest"
 #meta_description: ""
 ---
 
-{%- comment -%} Replace this with your research interests. {%- endcomment -%}
+{%- comment -%} 
+
+Methods in distributed analysis.
+
+Understanding how distributed analysis acts on the privacy of data.
+
+{%- endcomment -%}
 
 Coming soon!

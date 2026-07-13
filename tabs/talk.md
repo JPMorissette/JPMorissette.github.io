@@ -13,34 +13,45 @@ button_name: "Talks"
 #meta_description: ""
 ---
 
-## Conferences
+### Conferences
 
 <ol reversed>
-  <li> Domingue, M.-P., <b>Morissette, J.-P.</b>, Lévesque, S., Burgun, A., Camirand Lemyre, F., Whyte, C.-A., McGrail, K., & Ethier, J.-F. (2026, 15 juillet). <i>Enhancing Safety in Distributed Analytics: A Framework for Assessing and Reducing Privacy Risk </i> [Communication orale]. International Population Data Linkage Network (IPDLN) Conference 2026. </li>
-  <li> <b>Morissette, J.-P.</b>, Domingue, M.-P., Ethier, J.-F., Lévesque, S., Burgun, A., & Camirand Lemyre, F. (2026, 4 juin). <i>Brèche de confidentialité en analyse distribuée verticale : Le cas VERTIGO et VERTIGO-CI </i>[Communication orale]. Rencontres Montpellier–Sherbrooke, Montpellier, France.</li>
+  <!--
+  <li> Domingue, M.-P., <b>Morissette, J.-P.</b>, Lévesque, S., Burgun, A., Camirand Lemyre, F., Whyte, C.-A., McGrail, K., & Ethier, J.-F. (July 15th, 2026). <i>Enhancing Safety in Distributed Analytics: A Framework for Assessing and Reducing Privacy Risk </i> [Invited talk]. International Population Data Linkage Network (IPDLN) Conference 2026, Erasmus University Rotterdam, Rotterdam, Netherlands.
+    <a href="https://ipdln.org/2026-ipdln-conference/">https://ipdln.org/2026-ipdln-conference/</a>
+  </li>
+  -->
+  <li> <b>Morissette, J.-P.</b>, Domingue, M.-P., Ethier, J.-F., Lévesque, S., Burgun, A., & Camirand Lemyre, F. (June 4th, 2026). <i>Brèche de confidentialité en analyse distribuée verticale : Le cas VERTIGO et VERTIGO-CI </i>[Invited talk]. Rencontres Montpellier–Sherbrooke, Montpellier, France.
+    <a href="https://montpellier-sherbrooke.org/">https://montpellier-sherbrooke.org/</a>
+  </li>
 </ol>
 
-## Posters
+### Posters
 
 <ol reversed>
-  <li> <b>Morissette, J.-P.</b>, Lachance, B., St-Cyr, M.-F., Fournier, A. J., Trépanier, S.-G., Courcy, F., Colin, B. (2018). <i>Mesure du harcèlement psychologique au travail à l’aide du Negative Acts Questionnaire – Revised (NAQ-R) : examen d’échelles alternatives de réponse </i> [communication par affiche]. Congrès annuel de la SQRP : 40 ans de recherche en psychologie, Hôtel le concorde – Québec. 
+  <li> <b>Morissette, J.-P.</b>, Lachance, B., St-Cyr, M.-F., Fournier, A. J., Trépanier, S.-G., Courcy, F., Colin, B. (2018). <i>Mesure du harcèlement psychologique au travail à l’aide du Negative Acts Questionnaire – Revised (NAQ-R) : examen d’échelles alternatives de réponse </i> [Poster]. Congrès annuel de la SQRP : 40 ans de recherche en psychologie, Hôtel le concorde – Québec. 
     <a href="https://www.sqrp.ca/wp-content/uploads/2023/05/ProgrammeSQRP2018.pdf">https://www.sqrp.ca/wp-content/uploads/2023/05/ProgrammeSQRP2018.pdf</a>
     </li>
 </ol>
 
-## Workshop
+### Workshop
 
 <ol reversed>
-  <li> <b>Morissette, J.-P. </b> (2026, 28 mai). <i>Introduction à R avec un cas d'étude </i> [Atelier]. École d'initiation à la recherche en santé numérique (EINS) 2026.
+  <li> <b>Morissette, J.-P. </b> (May 28th, 2026). <i>Introduction à R avec un cas d'étude </i> [Invited talk]. École d'initiation à la recherche en santé numérique (EINS) 2026.
     <a href="https://eins.griis.ca/">https://eins.griis.ca/</a>
     </li>
-  <li> <b>Morissette, J.-P. </b> (2025, 29 mai). <i>Introduction à R avec un cas d'étude </i> [Atelier]. École d'initiation à la recherche en santé numérique (EINS) 2025.
+  <li> <b>Morissette, J.-P. </b> (May 29th, 2025). <i>Introduction à R avec un cas d'étude </i> [Invited talk]. École d'initiation à la recherche en santé numérique (EINS) 2025.
     <a href="https://eins.griis.ca/eins-2025/">https://eins.griis.ca/eins-2025/</a>
     </li>
 </ol>
 
-## Science outreach
+### Science outreach
 
 <ol reversed>
-  <li> Coming soon! </li>
+  <li> Lévesque, S., <b> Morissette, J.-P. </b> (March 13th, 2025). <i> Inférence statistique à partir de données distribuées </i> [Invited talk]. Département de mathématiques, Université de Sherbrooke. Club mathématique. </li>
+  <li> <b> Morissette, J.-P.</b> (November 29th, 2020). <i> Mathématique et jeux vidéo : Volume 1 </i> [Invited talk]. Département de mathématiques, Université de Sherbrooke. Club mathématique.</li>
+  <li> <b>Morissette, J.-P.</b> (September 28th, 2017). <i>Le système de recommandation de YouTube et ses impacts </i> [présentation d’un conférencier invité]. Département de mathématiques, Université de Sherbrooke. Club mathématique.</li>
+  <li> <b>Morissette, J.-P. </b>(May 13th, 2017). <i>Introduction aux statistiques bayésienne </i> [Invited talk]. Département de mathématiques, Université du Québec à Trois-Rivières. XXe colloque panquébécois des étudiants de l’ISM. </li>
+  <li> <b>Morissette, J.-P. </b>(February 9th, 2017). <i>Introduction aux statistiques bayésiennes </i>[Invited talk]. Département de mathématiques, Université de Sherbrooke. Club mathématique. </li>
+  <li> <b>Morissette, J.-P. </b>(February 12th, 2015). <i>Introduction à l’algèbre amassée </i> [Invited talk]. Département de mathématiques, Université de Sherbrooke. Club mathématique. </li>
 </ol>

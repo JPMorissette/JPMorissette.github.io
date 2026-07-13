@@ -8,6 +8,7 @@ layout: default
 ---
 {%- include multi_lng/get-pages-by-lng.liquid pages = site.posts -%}
 
+{%- comment -%}
 {%- if page.img %}
   {%- if site.data.conf.others.home.header_img_with_img_tag == true -%}
     {%- capture home_img_tag -%} <img src="{{ page.img }}" alt=""/> {%- endcapture -%}
@@ -34,6 +35,13 @@ layout: default
       {% endif -%}
     </div>
   </div>
+  <div class="home-intro-text markdown-style">
+    {{ content }}
+  </div>
+</div>
+{%- endcomment -%}
+
+<div class="multipurpose-container home-heading-container">
   <div class="home-intro-text markdown-style">
     {{ content }}
   </div>

@@ -4,8 +4,8 @@ layout: research-interest
 lng_pair: id_research_interest
 
 # for override items in _data/lang/[language].yml
-title: "Research Interest"
-button_name: "Research Interest"
+title: "Research Interests"
+button_name: "Research Interests"
 # for override side_and_top_nav_buttons in _data/conf/main.yml
 #icon: "fa fa-flask"
 

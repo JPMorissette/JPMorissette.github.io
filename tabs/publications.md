@@ -12,29 +12,30 @@ button_name: "Publications"
 # seo
 #meta_description: ""
 ---
-{%- comment -%}
 
 ## Articles
 
 <ol reversed>
-  <li>VALORIS</li>
-  <li>Revisiting VERTIGO/CI</li>
-  <li>Article de sondage</li>
-  <li>CaMUS</li>
+  <li>Cumyn, A., Ménard, J. F., Bilodeau, E., Dault, R., <b>Morissette, J. P.</b>, Domingue, M. P., ... & Ethier, J. F. (2026). Operationalizing transparency regarding the use of health data for research: a cross-sectional survey of citizens’ perspectives. <i>BMC Public Health </i>.</li>
+  <li>Camirand Lemyre, F., Domingue, M. P., <b>Morissette, J. P.</b>, Burgun, A., & Ethier, J. F. (2026). VALORIS: One-shot and lossless vertical logistic regression for privacy-protecting multi-site health analytics. <i>Scientific Reports</i>, 16(1), 12558.
+</li>
+  <li>Masson, C., <b>Morissette, J.-P. </b>(2014) Quadrilatères et pentagones dans le graphe d’échange. <i>CaMUS</i>, volume (3), 37-69. 
+    <a href="http://hdl.handle.net/11143/16141">http://hdl.handle.net/11143/16141</a>
+    </li>
 </ol>
 
 ## Research reports
 
 <ol reversed>
-  <li>Rapport de recherche avec Bernard</li>
+  <li>Abaouibida, S., <b>Morissette, J.-P.</b>, Rancourt, F. (janvier 2018) <i>Études de cas en analyse de données </i> (publication no 159). Bernard Colin. 
+    <a href="https://www.usherbrooke.ca/mathematiques/fileadmin/sites/mathematiques/documents/Recherche/Publications/Rapports_de_recherche/rr159.pdf">https://www.usherbrooke.ca/mathematiques/fileadmin/sites/mathematiques/documents/Recherche/Publications/Rapports_de_recherche/rr159.pdf</a>
+    </li>
 </ol>
 
-## Theses
+## Thesis
 
 <ol reversed>
-  <li>Travaux de maîtrise</li>
+  <li><b>Morissette, J.-P.</b> (2019). <i>Inférence bayésienne sous un a priori normal-gamma dans différents contextes et pour des fonctions de la moyenne et de la variance </i> [mémoire de maîtrise, Université de Sherbrooke]. Savoirs UdeS. 
+    <a href="http://hdl.handle.net/11143/15117">http://hdl.handle.net/11143/15117</a>
+    </li>
 </ol>
-
-{%- endcomment -%}
-
-Coming soon!

@@ -16,8 +16,11 @@ button_name: "Publications"
 ## Articles
 
 <ol reversed>
-  <li>Cumyn, A., Ménard, J. F., Bilodeau, E., Dault, R., <b>Morissette, J. P.</b>, Domingue, M. P., ... & Ethier, J. F. (2026). Operationalizing transparency regarding the use of health data for research: a cross-sectional survey of citizens’ perspectives. <i>BMC Public Health </i>.</li>
+  <li>Cumyn, A., Ménard, J. F., Bilodeau, E., Dault, R., <b>Morissette, J. P.</b>, Domingue, M. P., ... & Ethier, J. F. (2026). Operationalizing transparency regarding the use of health data for research: a cross-sectional survey of citizens’ perspectives. <i>BMC Public Health </i>.
+    <a href="https://doi.org/10.1186/s12889-026-28232-0">https://doi.org/10.1186/s12889-026-28232-0</a>
+  </li>
   <li>Camirand Lemyre, F., Domingue, M. P., <b>Morissette, J. P.</b>, Burgun, A., & Ethier, J. F. (2026). VALORIS: One-shot and lossless vertical logistic regression for privacy-protecting multi-site health analytics. <i>Scientific Reports</i>, 16(1), 12558.
+<a href="https://doi.org/10.1038/s41598-026-41936-y">https://doi.org/10.1038/s41598-026-41936-y</a>
 </li>
   <li>Masson, C., <b>Morissette, J.-P. </b>(2014) Quadrilatères et pentagones dans le graphe d’échange. <i>CaMUS</i>, volume (3), 37-69. 
     <a href="http://hdl.handle.net/11143/16141">http://hdl.handle.net/11143/16141</a>

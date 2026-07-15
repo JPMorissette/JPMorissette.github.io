@@ -16,11 +16,9 @@ button_name: "Talks"
 ### Conferences
 
 <ol reversed>
-  <!--
   <li> Domingue, M.-P., <b>Morissette, J.-P.</b>, Lévesque, S., Burgun, A., Camirand Lemyre, F., Whyte, C.-A., McGrail, K., & Ethier, J.-F. (July 15th, 2026). <i>Enhancing Safety in Distributed Analytics: A Framework for Assessing and Reducing Privacy Risk </i> [Invited talk]. International Population Data Linkage Network (IPDLN) Conference 2026, Erasmus University Rotterdam, Rotterdam, Netherlands.
     <a href="https://ipdln.org/2026-ipdln-conference/">https://ipdln.org/2026-ipdln-conference/</a>
   </li>
-  -->
   <li> <b>Morissette, J.-P.</b>, Domingue, M.-P., Ethier, J.-F., Lévesque, S., Burgun, A., & Camirand Lemyre, F. (June 4th, 2026). <i>Brèche de confidentialité en analyse distribuée verticale : Le cas VERTIGO et VERTIGO-CI </i>[Invited talk]. Rencontres Montpellier–Sherbrooke, Montpellier, France.
     <a href="https://montpellier-sherbrooke.org/">https://montpellier-sherbrooke.org/</a>
   </li>

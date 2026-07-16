@@ -48,7 +48,7 @@ button_name: "Talks"
 <ol reversed>
   <li> Lévesque, S., <b> Morissette, J.-P. </b> (March 13th, 2025). <i> Inférence statistique à partir de données distribuées </i> [Invited talk]. Département de mathématiques, Université de Sherbrooke. Club mathématique. </li>
   <li> <b> Morissette, J.-P.</b> (November 29th, 2020). <i> Mathématique et jeux vidéo : Volume 1 </i> [Invited talk]. Département de mathématiques, Université de Sherbrooke. Club mathématique.</li>
-  <li> <b>Morissette, J.-P.</b> (September 28th, 2017). <i>Le système de recommandation de YouTube et ses impacts </i> [présentation d’un conférencier invité]. Département de mathématiques, Université de Sherbrooke. Club mathématique.</li>
+  <li> <b>Morissette, J.-P.</b> (September 28th, 2017). <i>Le système de recommandation de YouTube et ses impacts </i> [Invited talk]. Département de mathématiques, Université de Sherbrooke. Club mathématique.</li>
   <li> <b>Morissette, J.-P. </b>(May 13th, 2017). <i>Introduction aux statistiques bayésienne </i> [Invited talk]. Département de mathématiques, Université du Québec à Trois-Rivières. XXe colloque panquébécois des étudiants de l’ISM. </li>
   <li> <b>Morissette, J.-P. </b>(February 9th, 2017). <i>Introduction aux statistiques bayésiennes </i>[Invited talk]. Département de mathématiques, Université de Sherbrooke. Club mathématique. </li>
   <li> <b>Morissette, J.-P. </b>(February 12th, 2015). <i>Introduction à l’algèbre amassée </i> [Invited talk]. Département de mathématiques, Université de Sherbrooke. Club mathématique. </li>

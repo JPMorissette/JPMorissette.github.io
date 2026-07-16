@@ -16,10 +16,10 @@ button_name: "Présentations"
 ### Conférences
 
 <ol reversed>
-  <li> Domingue, M.-P., <b>Morissette, J.-P.</b>, Lévesque, S., Burgun, A., Camirand Lemyre, F., Whyte, C.-A., McGrail, K., & Ethier, J.-F. (July 15th, 2026). <i>Enhancing Safety in Distributed Analytics: A Framework for Assessing and Reducing Privacy Risk </i> [Conférencié invité]. International Population Data Linkage Network (IPDLN) Conference 2026, Erasmus University Rotterdam, Rotterdam, Netherlands.
+  <li> Domingue, M.-P., <b>Morissette, J.-P.</b>, Lévesque, S., Burgun, A., Camirand Lemyre, F., Whyte, C.-A., McGrail, K., & Ethier, J.-F. (15 juillet 2026). <i>Enhancing Safety in Distributed Analytics: A Framework for Assessing and Reducing Privacy Risk </i> [Conférencié invité]. International Population Data Linkage Network (IPDLN) Conference 2026, Erasmus University Rotterdam, Rotterdam, Netherlands.
     <a href="https://ipdln.org/2026-ipdln-conference/">https://ipdln.org/2026-ipdln-conference/</a>
   </li>
-  <li> <b>Morissette, J.-P.</b>, Domingue, M.-P., Ethier, J.-F., Lévesque, S., Burgun, A., & Camirand Lemyre, F. (June 4th, 2026). <i>Brèche de confidentialité en analyse distribuée verticale : Le cas VERTIGO et VERTIGO-CI </i>[Conférencié invité]. Rencontres Montpellier–Sherbrooke, Montpellier, France.
+  <li> <b>Morissette, J.-P.</b>, Domingue, M.-P., Ethier, J.-F., Lévesque, S., Burgun, A., & Camirand Lemyre, F. (4 juin 2026). <i>Brèche de confidentialité en analyse distribuée verticale : Le cas VERTIGO et VERTIGO-CI </i>[Conférencié invité]. Rencontres Montpellier–Sherbrooke, Montpellier, France.
     <a href="https://montpellier-sherbrooke.org/">https://montpellier-sherbrooke.org/</a>
   </li>
 </ol>
@@ -35,10 +35,10 @@ button_name: "Présentations"
 ### Ateliers
 
 <ol reversed>
-  <li> <b>Morissette, J.-P. </b> (May 28th, 2026). <i>Introduction à R avec un cas d'étude </i> [Conférencié invité]. École d'initiation à la recherche en santé numérique (EINS) 2026.
+  <li> <b>Morissette, J.-P. </b> (28 mai 2026). <i>Introduction à R avec un cas d'étude </i> [Conférencié invité]. École d'initiation à la recherche en santé numérique (EINS) 2026.
     <a href="https://eins.griis.ca/">https://eins.griis.ca/</a>
     </li>
-  <li> <b>Morissette, J.-P. </b> (May 29th, 2025). <i>Introduction à R avec un cas d'étude </i> [Conférencié invité]. École d'initiation à la recherche en santé numérique (EINS) 2025.
+  <li> <b>Morissette, J.-P. </b> (29 mai 2025). <i>Introduction à R avec un cas d'étude </i> [Conférencié invité]. École d'initiation à la recherche en santé numérique (EINS) 2025.
     <a href="https://eins.griis.ca/eins-2025/">https://eins.griis.ca/eins-2025/</a>
     </li>
 </ol>
@@ -46,10 +46,10 @@ button_name: "Présentations"
 ### Vulgarisation scientifique
 
 <ol reversed>
-  <li> Lévesque, S., <b> Morissette, J.-P. </b> (March 13th, 2025). <i> Inférence statistique à partir de données distribuées </i> [Conférencié invité]. Département de mathématiques, Université de Sherbrooke. Club mathématique. </li>
-  <li> <b> Morissette, J.-P.</b> (November 29th, 2020). <i> Mathématique et jeux vidéo : Volume 1 </i> [Conférencié invité]. Département de mathématiques, Université de Sherbrooke. Club mathématique.</li>
-  <li> <b>Morissette, J.-P.</b> (September 28th, 2017). <i>Le système de recommandation de YouTube et ses impacts </i> [Conférencier invité]. Département de mathématiques, Université de Sherbrooke. Club mathématique.</li>
-  <li> <b>Morissette, J.-P. </b>(May 13th, 2017). <i>Introduction aux statistiques bayésienne </i> [Conférencié invité]. Département de mathématiques, Université du Québec à Trois-Rivières. XXe colloque panquébécois des étudiants de l’ISM. </li>
-  <li> <b>Morissette, J.-P. </b>(February 9th, 2017). <i>Introduction aux statistiques bayésiennes </i>[Conférencié invité]. Département de mathématiques, Université de Sherbrooke. Club mathématique. </li>
-  <li> <b>Morissette, J.-P. </b>(February 12th, 2015). <i>Introduction à l’algèbre amassée </i> [Conférencié invité]. Département de mathématiques, Université de Sherbrooke. Club mathématique. </li>
+  <li> Lévesque, S., <b> Morissette, J.-P. </b> (13 mars 2025). <i> Inférence statistique à partir de données distribuées </i> [Conférencié invité]. Département de mathématiques, Université de Sherbrooke. Club mathématique. </li>
+  <li> <b> Morissette, J.-P.</b> (29 novembre 2020). <i> Mathématique et jeux vidéo : Volume 1 </i> [Conférencié invité]. Département de mathématiques, Université de Sherbrooke. Club mathématique.</li>
+  <li> <b>Morissette, J.-P.</b> (28 septembre 2017). <i>Le système de recommandation de YouTube et ses impacts </i> [Conférencier invité]. Département de mathématiques, Université de Sherbrooke. Club mathématique.</li>
+  <li> <b>Morissette, J.-P. </b>(13 mai 2017). <i>Introduction aux statistiques bayésienne </i> [Conférencié invité]. Département de mathématiques, Université du Québec à Trois-Rivières. XXe colloque panquébécois des étudiants de l’ISM. </li>
+  <li> <b>Morissette, J.-P. </b>(9 février 2017). <i>Introduction aux statistiques bayésiennes </i>[Conférencié invité]. Département de mathématiques, Université de Sherbrooke. Club mathématique. </li>
+  <li> <b>Morissette, J.-P. </b>(12 février 2015). <i>Introduction à l’algèbre amassée </i> [Conférencié invité]. Département de mathématiques, Université de Sherbrooke. Club mathématique. </li>
 </ol>
